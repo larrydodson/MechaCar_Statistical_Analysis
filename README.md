@@ -41,18 +41,52 @@ UTMCC DataViz Module_15, R and Statistical Analysis
 
 ### Deliverable 1: Linear Regression to Predict MPG
 
+Screenshot of linear regression output:  ![]()
 
+#### Q & A:
+ 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+ 
+ 2. Is the slope of the linear model considered to be zero? Why or why not?
+ 
+ 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not
+
+
+.
 
 ### Deliverable 2: Summary Statistics on Suspension Coils
 
+ ** write a short summary using screenshots from your total_summary and lot_summary dataframes, and 
+ 
+ **Address the following Question:**
+ 
+ - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not.
 
+
+
+.
 
 ### Deliverable 3: T-Test on Suspension Coils
 
+briefly summarize your interpretation and findings for the t-test results, a summary of the t-test results across all manufacturing lots and for each lot. 
+ Include screenshots of the t-test to support your summary
+ 
 
+.
 
-### Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+### Deliverable 4: Design a Study Comparing the MechaCar to the Competition (Study Design: MechaCar vs Competition)
 
+ address the following Questions:
+ 
+ 1. What metric or metrics are you going to test?
+ 
+ 
+ 2. What is the null hypothesis or alternative hypothesis?
+ 
+ 
+ 3. What statistical test would you use to test the hypothesis? And why?
+ 
+ 
+ 4. What data is needed to run the statistical test?
 
 
  
