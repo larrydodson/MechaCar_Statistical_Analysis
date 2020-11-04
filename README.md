@@ -14,7 +14,7 @@ UTMCC DataViz Module_15, R and Statistical Analysis
 
 ## Overview 
   
-The company AutosRUs has a new prototype car, the MechaCar, that has problems in production operations. The manufacturing team is not making progress in solving the problems, and now the data analytics team is to analyz production data for possible insights to help manufacturing resolve the problems. 
+The company AutosRUs has a new prototype car, the MechaCar, that has problems in production operations. The manufacturing team is not making progress in solving the problems, and now the data analytics team is to analyze production data for possible insights to help manufacturing resolve the problems. 
 
    ### Purpose
    To perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes. To collect summary statistics on the pounds per square inch (psi) of the suspension coils from manufacturing lots, and to run t-tests to determine if the manufacturing lots are statistically different from the mean population. And, to design a statistical study to compare vehicle performance of the MechaCar against other manufacturers. 
@@ -50,7 +50,7 @@ Screenshot of linear regression output:  ![]()
  3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not
 
 
-.
+.==========================================================================================================
 
 ### Deliverable 2: Summary Statistics on Suspension Coils
 
@@ -62,7 +62,7 @@ Screenshot of linear regression output:  ![]()
 
 
 
-.
+.==========================================================================================================
 
 ### Deliverable 3: T-Test on Suspension Coils
 
@@ -70,7 +70,7 @@ briefly summarize your interpretation and findings for the t-test results, a sum
  Include screenshots of the t-test to support your summary
  
 
-.
+.==========================================================================================================
 
 ### Deliverable 4: Design a Study Comparing the MechaCar to the Competition (Study Design: MechaCar vs Competition, as a statistical study to compare vehicle performance.)
 
@@ -102,14 +102,6 @@ briefly summarize your interpretation and findings for the t-test results, a sum
 
 ## Summary
 
-### Questions and Replies 
-  1. **How m
 
-
-
-
-
-
-.
 
 .end
