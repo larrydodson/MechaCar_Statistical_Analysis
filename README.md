@@ -9,16 +9,16 @@ UTMCC DataViz Module_15, R and Statistical Analysis
     - Resources
   * Results
   * Summary
- 
 
 ---  
 
 ## Overview 
   
-  In support of . 
+The company AutosRUs has a new prototype car, the MechaCar, that has problems in production operations. The manufacturing team is not making progress in solving the problems, and now the data analytics team is to analyz production data for possible insights to help manufacturing resolve the problems. 
 
    ### Purpose
-   To prepare a new . 
+   To perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes. To collect summary statistics on the pounds per square inch (psi) of the suspension coils from manufacturing lots, and to run t-tests to determine if the manufacturing lots are statistically different from the mean population. And, to design a statistical study to compare vehicle performance of the MechaCar against other manufacturers. 
+   
   
    The deliverables are: 
    - Deliverable 1: Linear Regression to Predict MPG
@@ -29,7 +29,7 @@ UTMCC DataViz Module_15, R and Statistical Analysis
   
    ### Resources
   * Data/content source files: Suspension_Coil.csv, mpg_modified.csv
-  * Software: Windows10, RStudio Ver 1.3.1093, R, dplyr Package
+  * Software: Windows10, RStudio Ver 1.3.1093, R, tidyverse and dplyr Packages
   
 <br>
 
@@ -37,7 +37,6 @@ UTMCC DataViz Module_15, R and Statistical Analysis
 
 ## Results
 
-   Below . 
 
 ### Deliverable 1: Linear Regression to Predict MPG
 
@@ -73,9 +72,9 @@ briefly summarize your interpretation and findings for the t-test results, a sum
 
 .
 
-### Deliverable 4: Design a Study Comparing the MechaCar to the Competition (Study Design: MechaCar vs Competition)
+### Deliverable 4: Design a Study Comparing the MechaCar to the Competition (Study Design: MechaCar vs Competition, as a statistical study to compare vehicle performance.)
 
- address the following Questions:
+ Address these Questions:
  
  1. What metric or metrics are you going to test?
  
