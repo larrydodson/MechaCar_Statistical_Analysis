@@ -28,7 +28,7 @@ The company AutosRUs has a new prototype car, the MechaCar, that has problems in
    
   
    ### Resources
-  * Data/content source files: Suspension_Coil.csv, mpg_modified.csv
+  * Data/content source files:  MechaCar_mpg.csv and Suspension_Coil.csv 
   * Software: Windows10, RStudio Ver 1.3.1093, R, tidyverse and dplyr Packages
   
 <br>
