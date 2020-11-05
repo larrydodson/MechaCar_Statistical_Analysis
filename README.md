@@ -44,7 +44,9 @@ Screenshot of linear regression output:  ![MechaCar_lm_summary.png](https://gith
 
 #### Q & A:
  1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-  Notes: 1) The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and therefore can say that there is sufficient evidence to reject the null hypothesis.  2) Formula model:: mpg = (6.27)vehicle_length + (0.001)vehicle_weight + (0.07)spoiler_pangle + (3.55)ground_clearance + (-3.41)AWD + (-104) ==> tells us that a) the vehicle_length and spoiler_angle have little/no effect on the mpg.  ==> formula model update: mpg = (6.27)V
+  Notes: 1) The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and therefore can say that there is sufficient evidence to reject the null hypothesis.   
+  
+  ![lm_formula.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/lm_formula.png)
  
  
  2. Is the slope of the linear model considered to be zero? Why or why not?
