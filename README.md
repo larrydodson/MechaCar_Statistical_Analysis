@@ -58,7 +58,15 @@ Screenshot of linear regression output:  ![MechaCar_lm_summary.png](https://gith
 
 ### Deliverable 2: Summary Statistics on Suspension Coils
 
- ** write a short summary using screenshots from your total_summary and lot_summary dataframes, and 
+ ** write a short summary using screenshots from your total_summary and lot_summary dataframes
+ 
+   | **abc** | **abc** |
+   | :---: | :---: |
+   | Summary Stats on All Three Lots | ![Coil_total_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_summary.png) |
+   | normal plot reference | ![Coil_total_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_normalplot.png) |
+   | Summary Stats on Each of the Three Lots | ![Coil_Lot_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_Lot_summary.png) |
+
+ 
  
  **Address the following Question:**
  
