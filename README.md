@@ -70,7 +70,7 @@ Screenshot of linear regression output:  ![MechaCar_lm_summary.png](https://gith
  
  **Address the following Question:**
  
- - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not.
+ - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why not?
 
 
 
@@ -81,6 +81,17 @@ Screenshot of linear regression output:  ![MechaCar_lm_summary.png](https://gith
 briefly summarize your interpretation and findings for the t-test results, a summary of the t-test results across all manufacturing lots and for each lot. 
  Include screenshots of the t-test to support your summary
  
+
+   | **abc** | **cde** |
+   | :---: | :...: |
+   | t.test() on PSI across all manufacturing Lots, if is statistically diferent from the population mean of 1,500psi | ![ttest_all.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_all.png) |
+   | t.test() on PSI for each Lot, if is statistically diferent from the population mean of 1,500psi | ![]() |
+   | t.test() on PSI for Lot-1, if is statistically diferent from the population mean of 1,500psi | ![]() |   
+   | t.test() on PSI for Lot-2, if is statistically diferent from the population mean of 1,500psi | ![]() |
+   | t.test() on PSI for Lot-3, if is statistically diferent from the population mean of 1,500psi | ![]() |
+   | Summary of the t.test() Results across all Lots, and for each Lot | ![]() |
+
+
 
 .-----------------------------------------------------------
 
