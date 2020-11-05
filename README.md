@@ -82,16 +82,18 @@ briefly summarize your interpretation and findings for the t-test results, a sum
  Include screenshots of the t-test to support your summary
  
 
-   | **t.test Item** | **Results** |
+   | **t.test Item on Suspension Coil Data** <BR> *to determine if the PSI for each manufacturing Lot is statistically different from **the population mean of 1,500 psi*** | **Result** |
    | :--- | :---: |
-   | t.test() on PSI across all manufacturing Lots, if is statistically diferent from the population mean of 1,500psi | ![ttest_all.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_all.png) |
-   | t.test() on PSI for each Lot, if is statistically diferent from the population mean of 1,500psi | ![]() |
-   | t.test() on PSI for Lot-1, if is statistically diferent from the population mean of 1,500psi | ![]() |   
-   | t.test() on PSI for Lot-2, if is statistically diferent from the population mean of 1,500psi | ![]() |
-   | t.test() on PSI for Lot-3, if is statistically diferent from the population mean of 1,500psi | ![]() |
-   | Summary of the t.test() Results across all Lots, and for each Lot | ![]() |
+   | t.test() on PSI across all manufacturing Lots | ![ttest_all.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_all.png) |
+   | t.test() on PSI for each Lot separately, using subset() | ![]() |
+   | Lot-1 t.test() on PSI | ![ttest_lot1.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot1.png) |   
+   | Lot-2 t.test() on PSI | ![ttest_lot2.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot2.png) |
+   | Lot-3 t.test() on PSI | ![ttest_lot3.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot3.png) |
+ 
 
+#### Summary of the t.test() Results across all Lots, and for each Lot
 
+ Abc def.
 
 .-----------------------------------------------------------
 
