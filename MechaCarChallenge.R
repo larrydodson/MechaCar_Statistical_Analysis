@@ -21,10 +21,9 @@ ggplot(Coil, aes(x=PSI)) + geom_density()
 # For Suspension Coil, Summary Statistics on each of the separate three Lots
 Coil_Lot_summary <- Coil %>% group_by(Manufacturing_Lot) %>% summarize(mean_psi=mean(PSI), median_psi=median(PSI), variance_psi=var(PSI), sd_psi=sd(PSI))
 
-
-
-
-# Use T-Test for sample compare to population, mean = 1500
+# Use t.test for sample compare to population, all, mean = 1500. then, for each Lot1, Lot2, Lot3
 #t.test(log10(Coil$PSI), mu=1500)
 t.test(x=Coil$PSI, mu=1500)
-
+t.test(subset(Coil, Manufacturing_Lot == "Lot1")$PSI, mu = 1500)
+t.test(subset(Coil, Manufacturing_Lot == "Lot2")$PSI, mu = 1500)
+t.test(subset(Coil, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
