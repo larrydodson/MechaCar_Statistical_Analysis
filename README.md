@@ -42,18 +42,23 @@ The company AutosRUs has a new prototype car, the MechaCar, that has problems in
 
 Screenshot of linear regression output:  ![MechaCar_lm_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/MechaCar_lm_summary.png)
 
+  ![lm_formula.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/lm_formula.png)
+
+
 #### Q & A:
  1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-  Notes: 1) The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and therefore can say that there is sufficient evidence to reject the null hypothesis.   
-  
-  ![lm_formula.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/lm_formula.png)
- 
+   abcd The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and this is sufficient evidence to reject the null hypothesis.   
+
+
  
  2. Is the slope of the linear model considered to be zero? Why or why not?
+ efgh  The multiple r-square value is 0.7149 and the p-value is below the significance level of 0.05%, indicates that there is sufficient evidence to reject the null hypothesis. And, indicates that slope of the linear model is not zero.
  
  
  
- 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not
+ 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why? 
+
+abc def. .. ..  ~ Yes, the linear model is a good indicator of effectiveness because the multiple r-square value is 0.7149 and the p-value is 5.35e-11, which is below the significance level of 0.05%. The r-square value indicates that 71% of predictions will be correct using this linear model.
 
 
 .-----------------------------------------------------------
@@ -67,13 +72,12 @@ Screenshot of linear regression output:  ![MechaCar_lm_summary.png](https://gith
    | 1. Total Summary Statistics on All Three Lots | ![Coil_total_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_summary.png) |
    | 2. normal plot reference for Total Summary | ![Coil_total_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_normalplot.png) |
    | 3. Lot Summary Statistics on Each of the Three Lots | ![Coil_Lot_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_Lot_summary.png) |
-
  
+ **Address the following Question:** 
+ - Question: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for: 1) all manufacturing lots in total?, and 2) each lot individually? Why not?
+ - Response: 1) When using the data for all lots in aggregate, Yes, the measured data for Variance that is at 62.29psi is below the 100psi Variance maximum requirement. 2) With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, meet the requirement of 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
  
- **Address the following Question:**
- 
- - Question: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why not?
- - Reply: 
+ In summary, the cause of the manufacturing problem is likely to be with Lot 3 exceeding the design specifications. The Lot 3 should be removed from production and the manufacturing team to use this information for next steps to resolve the problem completely, and to modify production methods to screen and prevent furture problems. 
 
 
 
@@ -97,6 +101,12 @@ briefly summarize your interpretation and findings for the t-test results, a sum
 #### Summary of the t.test Results across all Lots, and for each Lot
 
  Abc def.
+Collectively, the p-value of the suspension coil’s PSI is 0.06028, which is above the significance level of 0.05% and therefore demonstrates that it is not statistically different (aka it is statistically similar to) from the mean population PSI results. 
+
+However, when grouped by manufacturing lots, lot 1 had a p-value of 1 and lot 2 had a p-value of 0.6072, which are above the significance level as well, and thereby demonstrate that they are not statistically different from the mean population PSI results. 
+
+Lot 3 had a p-value of 0.04168, which is below the significance level. Among the three manufacturing lots, the suspension coil's PSI of lot 3 is the only one that is statistically different from the mean population PSI results.
+
 
 .-----------------------------------------------------------
 
