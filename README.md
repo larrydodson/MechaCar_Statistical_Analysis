@@ -60,8 +60,8 @@ Screenshot of linear regression output:  ![MechaCar_lm_summary.png](https://gith
 
  ** write a short summary using screenshots from your total_summary and lot_summary dataframes
  
-   | **abc** | **abc** |
-   | :---: | :---: |
+   | **Item** | **Result** |
+   | :--- | :---: |
    | Summary Stats on All Three Lots | ![Coil_total_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_summary.png) |
    | normal plot reference | ![Coil_total_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_normalplot.png) |
    | Summary Stats on Each of the Three Lots | ![Coil_Lot_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_Lot_summary.png) |
@@ -82,8 +82,8 @@ briefly summarize your interpretation and findings for the t-test results, a sum
  Include screenshots of the t-test to support your summary
  
 
-   | **abc** | **cde** |
-   | :---: | :...: |
+   | **t.test Item** | **Results** |
+   | :--- | :---: |
    | t.test() on PSI across all manufacturing Lots, if is statistically diferent from the population mean of 1,500psi | ![ttest_all.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_all.png) |
    | t.test() on PSI for each Lot, if is statistically diferent from the population mean of 1,500psi | ![]() |
    | t.test() on PSI for Lot-1, if is statistically diferent from the population mean of 1,500psi | ![]() |   
