@@ -75,7 +75,7 @@ abc def. .. ..  ~ Yes, the linear model is a good indicator of effectiveness bec
  - Question(s): *The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for: 1) all manufacturing lots in total?, and 2) each lot individually? - Why or Why-not?*
  - Response: 
   1) Yes - When using the data for all lots in aggregate, Yes, the measured data for Variance that is at 62.29psi is below the 100psi Variance maximum requirement. 
-  2) Yes - for Lots 1 and 2, No - for Lot 3.  With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, are below the 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
+  2) Yes - for Lots 1 and 2. No - for Lot 3.  With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, are below the 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
  
  In summary, the cause of the manufacturing problem is likely to be with Lot 3 exceeding the design specification for Variance. The Lot 3 should be removed from production and the manufacturing team to use this information for next steps to resolve the problem completely, and to modify production methods to screen and prevent furture problems. 
 
