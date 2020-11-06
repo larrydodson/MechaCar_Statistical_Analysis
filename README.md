@@ -72,7 +72,7 @@ For linear regression, testing the following hypotheses:
 >   | x2, vehicle_weight | m2 | 0.001 | No, is random |
 >   | x3, spoiler_angle | m3 | 0.07 | No, is random |
 >   | x4, ground_clearance | m4 | 3.55 | Yes, is non-random |
->   | x5, AWD | m5 | -3.41 | Yes, is non-random; however p-value of 0.1852 is less than 0.05, and contribution may be low |
+>   | x5, AWD | m5 | -3.41 | Yes, is non-random; however p-value of 0.1852 is less<br> than 0.05, and impact may be low |
 > 
 > Overall, with a p-value of 5.35e-11, much less than the significance level 0.05, we can reject the H0, where mgp is not determined by random chance and error.   
 > With the y-intercept b = -104, it is likely there are other independent variables that also have a non-random impact on mpg, and further study would be recommended to find other variables. 
