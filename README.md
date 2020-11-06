@@ -1,9 +1,8 @@
 # MechaCar_Statistical_Analysis
 UTMCC DataViz Module_15, R and Statistical Analysis
 
-<div align="center"> 
  ![autodataviz.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/autodataviz.png) 
-</div>
+
 
 ---
 
@@ -141,7 +140,7 @@ Lot 3 had a p-value of 0.04168, which is below the significance level. Among the
    | :---: |
    | ![]() |
 
-
+<div align="center"> </div>
 
 
 <br>
