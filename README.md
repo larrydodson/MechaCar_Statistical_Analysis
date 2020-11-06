@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 UTMCC DataViz Module_15, R and Statistical Analysis
 
-![autodataviz.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/autodataviz.png)
+<div align="center">![autodataviz.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/autodataviz.png)
 
 ---
 
@@ -49,20 +49,20 @@ Screenshot of linear regression output:  . ![MechaCar_lm_summary.png](https://gi
 
 
 #### Q & A:
- 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+ 1. *Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?*
    abcd The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and this is sufficient evidence to reject the null hypothesis.   
 
 any coeff with a high t-value, but not using the intercept; the higher the t-value the more it 
 
  
- 2. Is the slope of the linear model considered to be zero? Why or why not?
+ 2. *Is the slope of the linear model considered to be zero? Why or why not?*
  efgh  The multiple r-square value is 0.7149 and the p-value is below the significance level of 0.05%, indicates that there is sufficient evidence to reject the null hypothesis. And, indicates that slope of the linear model is not zero.
  
  Zero? - are the slopes close to zero or not, for each ind var
 
  
  
- 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why? 
+ 3. *Does this linear model predict mpg of MechaCar prototypes effectively? Why?* 
 
 abc def. .. ..  ~ Yes, the linear model is a good indicator of effectiveness because the multiple r-square value is 0.7149 and the p-value is 5.35e-11, which is below the significance level of 0.05%. The r-square value indicates that 71% of predictions will be correct using this linear model.
 
@@ -93,8 +93,7 @@ look at Rsq for this
 
 ### Deliverable 3: T-Test on Suspension Coils 
 
-briefly summarize your interpretation and findings for the t-test results, a summary of the t-test results across all manufacturing lots and for each lot. 
- Include screenshots of the t-test to support your summary
+*briefly summarize your interpretation and findings for the t-test results, a summary of the t-test results across all manufacturing lots and for each lot.*
  
 
    | **t.test Results on Suspension Coil Data** <br> *to determine if the PSI is statistically different from the population mean of 1,500 psi* | **Computed Results** |
@@ -123,16 +122,16 @@ Lot 3 had a p-value of 0.04168, which is below the significance level. Among the
 
  Address these Questions:
  
- 1. What metric or metrics are you going to test?
+ 1. *What metric or metrics are you going to test?*
  
  
- 2. What is the null hypothesis or alternative hypothesis?
+ 2. *What is the null hypothesis or alternative hypothesis?*
  
  
- 3. What statistical test would you use to test the hypothesis? And why?
+ 3. *What statistical test would you use to test the hypothesis? And why?*
  
  
- 4. What data is needed to run the statistical test?
+ 4. *What data is needed to run the statistical test?*
 
 
  
