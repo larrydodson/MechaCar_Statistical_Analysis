@@ -70,7 +70,7 @@ abc def. .. ..  ~ Yes, the linear model is a good indicator of effectiveness bec
    | **Item** | **Result** |
    | :--- | :---: |
    | 1. Total Summary Statistics on All Three Lots | ![Coil_total_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_summary.png) |
-   | 2. normal plot reference for Total Summary | ![Coil_total_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_normalplot.png) |
+   | 2. normal plot reference for Total Summary<br> ggplot(Coil, aes(x=PSI)) + geom_density() | ![Coil_total_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_normalplot.png) |
    | 3. Lot Summary Statistics on Each of the Three Lots | ![Coil_Lot_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_Lot_summary.png) |
  
  **Address the following Question:** 
