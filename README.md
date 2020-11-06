@@ -41,7 +41,7 @@ The company AutosRUs has a new prototype car, the MechaCar, that has problems in
 ## Results
 
 
-### Deliverable 1: Linear Regression to Predict MPG  .  ![mpgDash1.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/mpgDash1.png)
+### Deliverable 1: Linear Regression to Predict MPG  .  ![fuelgauge.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/fuelgauge.png)
 
 Screenshot of linear regression output:  . ![MechaCar_lm_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/MechaCar_lm_summary.png)
 
