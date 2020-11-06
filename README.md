@@ -62,16 +62,13 @@ For linear regression, testing the following hypotheses:
  the linear equation: **y = m1x1 + m2x2 + m3x3 + m4x4 + m5x5 + b** <br>
   mpg = m1 x vehicle_length + m2 x vehicle_weight + m3 x spoiler_angle + m4 x ground_clearance + m5 x AWD + b
 
-   | **ind. variable** | **m, slope** | **value** | **Does the variable contribute non-random variance to mpg?** |
-   | :--- | :---: | ---: | :--- |
-   | vehicle_length | m1 | 6.27 | a |
-   | vehicle_weight | m2 | 0.001 | a |
-   | spoiler_angle | m3 | 0.07 | a |
-   | ground_clearance | m4 | 3.55 | a |
-   | AWD | m5 | -3.41 | a |
-
-
-
+>   | **ind. variable** | **m, slope** | **value** | **Does the variable contribute non-random variance to mpg?** |
+>   | :--- | :---: | ---: | :--- |
+>   | vehicle_length | m1 | 6.27 | a |
+>   | vehicle_weight | m2 | 0.001 | a |
+>   | spoiler_angle | m3 | 0.07 | a |
+>   | ground_clearance | m4 | 3.55 | a |
+>   | AWD | m5 | -3.41 | a |
 
 > abcd The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and this is sufficient evidence to reject the null hypothesis.   
 > 
