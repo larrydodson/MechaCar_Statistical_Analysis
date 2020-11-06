@@ -44,20 +44,22 @@ The company AutosRUs has a new prototype car, the MechaCar, that has problems in
 
 ### Deliverable 1: Linear Regression to Predict MPG  .  ![fuelgauge.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/fuelgauge.png)
 
-Screenshot of linear regression output:  . ![MechaCar_lm_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/MechaCar_lm_summary.png)
+Screenshot of linear regression output:   .   ![MechaCar_lm_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/MechaCar_lm_summary.png)
 
   ![lm_formula.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/lm_formula.png)
 
 
 #### Q & A:
  1. *Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?*
-   abcd The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and this is sufficient evidence to reject the null hypothesis.   
+
+> abcd The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and this is sufficient evidence to reject the null hypothesis.   
 
 any coeff with a high t-value, but not using the intercept; the higher the t-value the more it 
 
  
  2. *Is the slope of the linear model considered to be zero? Why or why not?*
- efgh  The multiple r-square value is 0.7149 and the p-value is below the significance level of 0.05%, indicates that there is sufficient evidence to reject the null hypothesis. And, indicates that slope of the linear model is not zero.
+
+> efgh  The multiple r-square value is 0.7149 and the p-value is below the significance level of 0.05%, indicates that there is sufficient evidence to reject the null hypothesis. And, indicates that slope of the linear model is not zero.
  
  Zero? - are the slopes close to zero or not, for each ind var
 
@@ -65,9 +67,9 @@ any coeff with a high t-value, but not using the intercept; the higher the t-val
  
  3. *Does this linear model predict mpg of MechaCar prototypes effectively? Why?* 
 
-abc def. .. ..  ~ Yes, the linear model is a good indicator of effectiveness because the multiple r-square value is 0.7149 and the p-value is 5.35e-11, which is below the significance level of 0.05%. The r-square value indicates that 71% of predictions will be correct using this linear model.
-
-look at Rsq for this 
+> abc def. .. ..  ~ Yes, the linear model is a good indicator of effectiveness because the multiple r-square value is 0.7149 and the p-value is 5.35e-11, which is below the significance level of 0.05%. The r-square value indicates that 71% of predictions will be correct using this linear model.
+> 
+> look at Rsq for this 
 
 
 .-----------------------------------------------------------
@@ -82,12 +84,12 @@ look at Rsq for this
  
  **Address the following Question:** 
  - Question(s): *The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for: 1) all manufacturing lots in total?, and 2) each lot individually? - Why or Why-not?*
- - Response: 
-  1) Yes - When using the data for all lots in aggregate, Yes, the measured data for Variance that is at 62.29psi is below the 100psi Variance maximum requirement. 
-  2) Yes - for Lots 1 and 2. No - for Lot 3.  With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, are below the 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
- 
- In summary, the cause of the manufacturing problem is likely to be with Lot 3 exceeding the design specification for Variance. The Lot 3 should be removed from production and the manufacturing team to use this information for next steps to resolve the problem completely, and to modify production methods to screen and prevent furture problems. 
-
+> - Response: 
+>  1) Yes - When using the data for all lots in aggregate, Yes, the measured data for Variance that is at 62.29psi is below the 100psi Variance maximum requirement. 
+>  2) Yes - for Lots 1 and 2. No - for Lot 3.  With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, are below the 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
+> 
+> In summary, the cause of the manufacturing problem is likely to be with Lot 3 exceeding the design specification for Variance. The Lot 3 should be removed from production and the manufacturing team to use this information for next steps to resolve the problem completely, and to modify production methods to screen and prevent furture problems. 
+> 
 
 
 .-----------------------------------------------------------
@@ -103,7 +105,7 @@ look at Rsq for this
    | **t.test on PSI for each Lot separately, using subset()** | ![]() |
    | **Lot-1** <br> abc, def, hij | ![ttest_lot1.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot1.png) |   
    | **Lot-2** <br> abc, def, hij | ![ttest_lot2.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot2.png) |
-   | **Lot-3** <br> abc, def, hij | ![ttest_lot3.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot3.png) |
+   | **Lot-3**\ abc, def, hij | ![ttest_lot3.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot3.png) |
  
 
 #### Summary of the t.test Results across all Lots, and for each Lot
