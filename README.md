@@ -68,19 +68,21 @@ For linear regression, testing the following hypotheses:
 
 >   | **ind. variable** | **m, slope** | **value** | **Does the variable contribute non-random variance to mpg?** |
 >   | :--- | :---: | ---: | :--- |
->   | x1, vehicle_length | m1 | 6.27 | Yes, non-random |
+>   | x1, vehicle_length | m1 | 6.27 | Yes, is non-random |
 >   | x2, vehicle_weight | m2 | 0.001 | No, is random |
 >   | x3, spoiler_angle | m3 | 0.07 | No, is random |
->   | x4, ground_clearance | m4 | 3.55 | Yes, non-random |
->   | x5, AWD | m5 | -3.41 | Yes, is non-random |
+>   | x4, ground_clearance | m4 | 3.55 | Yes, is non-random |
+>   | x5, AWD | m5 | -3.41 | Yes, is non-random; however p-value of 0.1852 is less than 0.05, and contribution may be low |
 > 
 > Overall, with a p-value of 5.35e-11, much less than the significance level 0.05, we can reject the H0, where mgp is not determined by random chance and error.   
-> 
+> With the y-intercept b = -104, it is likely there are other independent variables that also have a non-random impact on mpg, and further study would be recommended to find other variables. 
+
 
  2. *Is the slope of the linear model considered to be zero? Why or why not?*
 
-> No, the slope of the linear model lm is not zero. The p-value is less than significance level of 0.05, and indicates that there is sufficient evidence to reject the H0 and, indicates that slope of the linear model is not zero, i.e, not a flat line.
+> No, the slope of the linear model lm is not zero. The p-value is less than significance level of 0.05, and indicates that there is sufficient evidence to reject the H0 and, indicates that slope of the linear model is not zero, i.e., not a flat line.
 > 
+ 
  
  3. *Does this linear model predict mpg of MechaCar prototypes effectively? Why?* 
 
