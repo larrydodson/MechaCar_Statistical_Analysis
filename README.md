@@ -46,7 +46,6 @@ The company AutosRUs has a new prototype car, the MechaCar, that has problems in
 
 Screenshot of linear regression output:   .   ![MechaCar_lm_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/MechaCar_lm_summary.png)
 
-the linear equation: **y = m1x1 + m2x2 + m3x3 + m4x4 + m5x5 + b**
 
   ![lm_formula.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/lm_formula.png)
   
@@ -60,10 +59,10 @@ For linear regression, testing the following hypotheses:
 #### Q & A:
  1. *Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?*
 
-the linear equation: **y = m1x1 + m2x2 + m3x3 + m4x4 + m5x5 + b**
- mpt = m1 x vehicle_length + m2 x vehicle_weight + m3 x spoiler_angle + m4 x ground_clearance + m5 x AWD + b
+ the linear equation: **y = m1x1 + m2x2 + m3x3 + m4x4 + m5x5 + b** <br>
+  mpg = m1 x vehicle_length + m2 x vehicle_weight + m3 x spoiler_angle + m4 x ground_clearance + m5 x AWD + b
 
-   | **ind. variable** | **m, slope** | **value** | **Variable non-random variance to mpg?** |
+   | **ind. variable** | **m, slope** | **value** | **Does the variable contribute non-random variance to mpg?** |
    | :--- | :---: | ---: | :--- |
    | vehicle_length | m1 | 6.27 | a |
    | vehicle_weight | m2 | 0.001 | a |
