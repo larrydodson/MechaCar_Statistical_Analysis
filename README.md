@@ -97,7 +97,7 @@ a non-random amount of variance to the mpg values in the dataset:
 >  1) Yes - When using the data for all lots in aggregate, Yes, the measured data for Variance that is at 62.29psi is below the 100psi Variance maximum requirement. 
 >  2) Yes - for Lots 1 and 2. No - for Lot 3.  With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, are below the 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
 > 
-> In summary, the cause of the manufacturing problem is likely to be with Lot 3 exceeding the design specification for Variance. The Lot 3 should be removed from production and the manufacturing team to use this information for next steps to resolve the problem completely, and to modify production methods to screen and prevent furture problems. 
+> In summary, the cause of the manufacturing problem is likely to be with Lot 3 that is exceeding the design specification for Variance. The Lot 3 should be removed from production and the manufacturing team to use this information to determine next steps to resolve the problem completely, and to modify production methods to screen and prevent furture problems. 
 > 
 
 
@@ -105,27 +105,24 @@ a non-random amount of variance to the mpg values in the dataset:
 
 ### Deliverable 3: T-Test on Suspension Coils 
 
-*briefly summarize your interpretation and findings for the t-test results, a summary of the t-test results across all manufacturing lots and for each lot.*
- 
-
-   | **t.test Results on Suspension Coil Data** <br> *to determine if the PSI is statistically different from the population mean of 1,500 psi* | **Computed Results** |
+   | **t.test Results on Suspension Coil Data** <br>    *to determine if the PSI is statistically different from the population mean of 1,500 psi* | **Computed Results** |
    | :--- | :---: |
    | **All Manufacturing Lots as one group** <br>t = -1.8931<br>p-value = 0.06028 | ![ttest_all.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_all.png) |
-   | **t.test on PSI for each Lot separately, using subset()** | ![]() |
+   | **t.test on PSI for each Lot separately, using `t.test(subset())`** | ![]() |
    | **Lot-1** <br>t = 0<br>p-value = 1 | ![ttest_lot1.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot1.png) |   
    | **Lot-2** <br>t = 0.51745<br>p-value = 0.6072 | ![ttest_lot2.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot2.png) |
    | **Lot-3** <br>t = -2.0916<br>p-value = 0.04168 | ![ttest_lot3.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot3.png) |
- 
+
+- H0: Null Hypothesis, There is no statistical difference between the observed sample mean and its population mean.
+- Ha: Alternative Hypothesis, There is a statistical difference between the observed sample mean and its population mean.
+- Population mean is 1500 pounds per inch.
+- Using significance level 0.05 
 
 #### Summary of the t.test Results across all Lots, and for each Lot
 
- Abc def.
-Collectively, the p-value of the suspension coil’s PSI is 0.06028, which is above the significance level of 0.05% and therefore demonstrates that it is not statistically different (aka it is statistically similar to) from the mean population PSI results. 
-
-However, when grouped by manufacturing lots, lot 1 had a p-value of 1 and lot 2 had a p-value of 0.6072, which are above the significance level as well, and thereby demonstrate that they are not statistically different from the mean population PSI results. 
-
-Lot 3 had a p-value of 0.04168, which is below the significance level. Among the three manufacturing lots, the suspension coil's PSI of lot 3 is the only one that is statistically different from the mean population PSI results.
-
+- For the Group of all three Lots, the p-value is 0.06028, greater than the significance level of 0.05. This is not sufficient evidence to reject the H0, and indicates that this Group is not statistically different from the population mean.
+- For Lot 1 and Lot 2: Lot 1 has a p-value of 1 and Lot 2 had a p-value of 0.6072, both are greater than the significance level of 0.05. This is not sufficient evidence to reject the H0, and both samples are not statistically different from the population mean. 
+- For Lot 3, it different from the other Lots. Lot 3 has a p-value of 0.04168 that is less than the significance level of 0.05. In this case, for Lot 3 there is sufficient evidence to reject the H0, and instead to adopt Ha, where the Lot 3 sample is statistically different from the population mean.
 
 .-----------------------------------------------------------
 
