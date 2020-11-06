@@ -71,7 +71,7 @@ abc def. .. ..  ~ Yes, the linear model is a good indicator of effectiveness bec
    | :--- | :---: |
    | 1. Total Summary Statistics on All Three Lots | ![Coil_total_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_summary.png) |
    | 2. normal plot reference for Total Summary<br> ggplot(Coil, aes(x=PSI)) + geom_density() | ![Coil_total_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_normalplot.png) |
-   | 3. Lot Summary Statistics on Each of the Three Lots | ![Coil_Lot_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_Lot_summary.png) |
+   | 3. Lot Summary Statistics on Each of the Three Lots | ![Coil_Lot_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_Lot_summary.png)<br> ![Coil_LotX_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_LotX_normalplot.png) |
  
  **Address the following Question:** 
  - Question: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for: 1) all manufacturing lots in total?, and 2) each lot individually? Why not?
