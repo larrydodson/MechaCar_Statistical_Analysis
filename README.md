@@ -52,12 +52,30 @@ the linear equation: **y = m1x1 + m2x2 + m3x3 + m4x4 + m5x5 + b**
   
   `MechaCar_lm <- lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_mpg)`
 
+For linear regression, testing the following hypotheses:
+ - H0: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
+ - Ha: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independant variable)
+
 
 #### Q & A:
  1. *Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?*
 
-> abcd The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and this is sufficient evidence to reject the null hypothesis.   
+the linear equation: **y = m1x1 + m2x2 + m3x3 + m4x4 + m5x5 + b**
+ mpt = m1 x vehicle_length + m2 x vehicle_weight + m3 x spoiler_angle + m4 x ground_clearance + m5 x AWD + b
 
+   | **ind. variable** | **m, slope** | **value** | **Variable non-random variance to mpg?** |
+   | :--- | :---: | ---: | :--- |
+   | vehicle_length | m1 | 6.27 | a |
+   | vehicle_weight | m2 | 0.001 | a |
+   | spoiler_angle | m3 | 0.07 | a |
+   | ground_clearance | m4 | 3.55 | a |
+   | AWD | m5 | -3.41 | a |
+
+
+
+
+> abcd The p-value of the linear regression is 5.35e-11, which is much smaller than the given significance level of 0.05, and this is sufficient evidence to reject the null hypothesis.   
+> 
 > any coeff with a high t-value, but not using the intercept; the higher the t-value the more it 
 > slop is not zero not zero for at least for these three variables: vehicle_length, ground_clearance and AWD
 
@@ -65,12 +83,14 @@ the linear equation: **y = m1x1 + m2x2 + m3x3 + m4x4 + m5x5 + b**
  2. *Is the slope of the linear model considered to be zero? Why or why not?*
 
 > No, the slope of the linear model, lm, is not considered to be zero. The multiple r-square value is 0.7149 and the p-value is below the significance level of 0.05%, indicates that there is sufficient evidence to reject the null hypothesis. And, indicates that slope of the linear model is not zero.
- 
- Zero? - are the slopes close to zero or not, for each ind var
-
+> 
+> Zero? - are the slopes close to zero or not, for each ind var
+> 
  
  
  3. *Does this linear model predict mpg of MechaCar prototypes effectively? Why?* 
+
+ For r2 (r-squared) value, aka the coefficient of determination, as a probability metric to determine likelihood of predictability for future data points as a fit to the linear model. A value for r2 in the range between 0 and 1 will indicate a likely probable fit.
 
 > abc def. .. ..  ~Yes, the linear model is a good indicator of effectiveness because the multiple r-square value is 0.7149 and the p-value is 5.35e-11, which is below the significance level of 0.05%. The r-square value indicates that 71% of predictions will be correct using this linear model.
 > 
