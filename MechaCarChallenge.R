@@ -5,10 +5,11 @@ library(dplyr)
 install.packages("tidyverse")
 library(tidyverse)
 
-# Deliverable-1: Linear Regression to Predict MPG
+# Deliverable-1: Linear Regression to Predict MPG, with MPG as the dependent variable 
 MechaCar_mpg <- read.csv(file='MechaCar_mpg.csv', check.names=F, stringsAsFactors = F)
 MechaCar_lm <- lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_mpg)
 summary(MechaCar_lm)
+
 
 # Deliverable-2: Summary Statistics on Suspension Coils for all three Lots 
 Coil <- read.csv(file='Suspension_Coil.csv', check.names=F, stringsAsFactors = F)
@@ -27,3 +28,15 @@ t.test(x=Coil$PSI, mu=1500)
 t.test(subset(Coil, Manufacturing_Lot == "Lot1")$PSI, mu = 1500)
 t.test(subset(Coil, Manufacturing_Lot == "Lot2")$PSI, mu = 1500)
 t.test(subset(Coil, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
+
+shapiro.test(Coil$PSI)
+
+
+Coil_lot1 <- Coil %>% filter(Manufacturing_Lot == "Lot1")
+ggplot(Coil_lot1, aes(x=PSI)) + geom_density()
+
+Coil_lot2 <- Coil %>% filter(Manufacturing_Lot == "Lot2")
+ggplot(Coil_lot1, aes(x=PSI)) + geom_density()
+
+Coil_lot3 <- Coil %>% filter(Manufacturing_Lot == "Lot3")
+ggplot(Coil_lot1, aes(x=PSI)) + geom_density()
