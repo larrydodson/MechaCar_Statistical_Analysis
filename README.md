@@ -1,7 +1,9 @@
 # MechaCar_Statistical_Analysis
 UTMCC DataViz Module_15, R and Statistical Analysis
 
-<div align="center"> ![autodataviz.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/autodataviz.png) </div>
+<div align="center"> 
+ ![autodataviz.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/autodataviz.png) 
+</div>
 
 ---
 
