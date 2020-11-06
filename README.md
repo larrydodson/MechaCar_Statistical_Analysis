@@ -79,7 +79,7 @@ any coeff with a high t-value, but not using the intercept; the higher the t-val
    | **Item** | **Result** |
    | :--- | :---: |
    | 1. Total Summary Statistics on All Three Lots | ![Coil_total_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_summary.png) |
-   | 2. normal plot reference for Total Summary<br> ggplot(Coil, aes(x=PSI)) + geom_density() | ![Coil_total_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_normalplot.png) |
+   | 2. normal plot reference for Total Summary<br> `ggplot(Coil, aes(x=PSI)) + geom_density()` | ![Coil_total_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_total_normalplot.png) |
    | 3. Lot Summary Statistics on Each of the Three Lots | ![Coil_Lot_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_Lot_summary.png)<br> ![Coil_LotX_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_LotX_normalplot.png) |
  
  **Address the following Question:** 
@@ -105,7 +105,7 @@ any coeff with a high t-value, but not using the intercept; the higher the t-val
    | **t.test on PSI for each Lot separately, using subset()** | ![]() |
    | **Lot-1** <br> abc, def, hij | ![ttest_lot1.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot1.png) |   
    | **Lot-2** <br> abc, def, hij | ![ttest_lot2.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot2.png) |
-   | **Lot-3**\ abc, def, hij | ![ttest_lot3.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot3.png) |
+   | **Lot-3** <br> abc, def, hij | ![ttest_lot3.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot3.png) |
  
 
 #### Summary of the t.test Results across all Lots, and for each Lot
