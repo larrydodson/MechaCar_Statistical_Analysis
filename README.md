@@ -53,7 +53,7 @@ Screenshot of linear regression output:   .   ![MechaCar_lm_summary.png](https:/
 
 For linear regression, testing the following hypotheses:
  - **H0**: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
- - **Ha**: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independant variable)
+ - **Ha**: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independent variable)
 
 From the output:
   - p-value = 5.35e-11
@@ -78,12 +78,10 @@ From the output:
 > - Overall, with a p-value of 5.35e-11, much less than the significance level 0.05, we can reject the H0, where mgp is not determined by random chance and error.   
 > - With the y-intercept b = -104, indicates that it is likely there are other independent variables that also have a non-random impact on mpg, and further study would be recommended to seek and use other suitable variables. 
 
-
  2. *Is the slope of the linear model considered to be zero? Why or why not?*
 
 > No, the slope of the linear model lm is not zero. The p-value is less than significance level of 0.05, and indicates that there is sufficient evidence to reject the H0 and, indicates that slope of the linear model is not zero, i.e., not a flat line.
 > 
- 
  
  3. *Does this linear model predict mpg of MechaCar prototypes effectively? Why?* 
 
@@ -108,7 +106,7 @@ From the output:
 >  1) Yes - When using the data for all lots in aggregate, Yes, the measured data for Variance that is at 62.29psi is below the 100psi Variance maximum requirement. 
 >  2) Yes - for Lots 1 and, 2. No - for Lot 3.  With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, are below the 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
 > 
-> In summary, the cause of the manufacturing problem is likely to be with Lot 3 that is exceeding the design specification for Variance. The Lot 3 should be removed from production and the manufacturing team to use this information to determine next steps to resolve the problem completely, and to modify production methods to screen and prevent furture problems. 
+> In summary, the cause of the manufacturing problem is likely to be with Lot 3 that is exceeding the design specification for Variance. The Lot 3 should be removed from production and the manufacturing team to use this information to determine next steps to resolve the problem completely, and to modify production methods to screen and prevent future problems. 
 > 
 
 
@@ -142,28 +140,33 @@ From the output:
 ### Deliverable 4: Design a Study Comparing the MechaCar to the Competition 
  (Study Design: MechaCar vs Competition, as a statistical study to compare vehicle performance.)   
 
- Address these Questions:
+ ***Questions:***
  
  1. *What metric or metrics are you going to test?*
-  >  cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+  >  Would add most or all of these metrics, as data became available on the Competition: Costs, Fuel efficiency, Horse Power, and Safety rating.
  
  2. *What is the null hypothesis or alternative hypothesis?*
-  > For linear regression, testing the following hypotheses:
-  - **H0**: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
-  - **Ha**: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independant variable)
+  > To compare the same or very similar data from AutosRUs against data from each competitor, establishing the following hypotheses:
+  > - **H0**: The Null Hypothesis, The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
+  > - **Ha**: The Alternative Hypothesis, The slope of the linear model is not zero, or m ≠ 0 , To indicate a significant linear relationship for the dependent variable with the independent variables, comparing AutosRUs against the competitor data.
  
  3. *What statistical test would you use to test the hypothesis? And why?*
-  > - Lindear regression:
-  > - t-tests, both one-sample and two sample t-tests 
+  > - Linear regression: To compare the regression curves based on ind.-variables on body style, engine sizes, aerodynamic frames, engine power sizes, and other available variables, as competitive costs, efficiencies, and competitive metrics in manufacturing and features for customer sales.
+  > - t-tests, both one-sample and two sample t-test: To compare and determine any statistical differences between the distribution's means from one and two samples, and compared with the competition.
  
  4. *What data is needed to run the statistical test?*
-  > - For Cost: 
-  > - For Fuel efficiency: 
-  > - For Horse Power:
-  > - For Maintenance cost:  
-  > - For Safety rating:
-
- 
+  > From these items are representative data sets that would be valuable for comparison with competitors.
+  > - For Costs: Cost of individual components in the supply chain, 
+  > - For Fuel efficiency: Data on mgp results, of distance traveled and associated fuel usage, and with added data on body style, engine sizes, aerodynamic frames, engine power sizes, and other items. 
+  > - For Horse Power: Engine sizes per model types, engine design for motor types, fuel types, piston and displacements, and along with body frame sizes and weights, and distance traveled with timed instances for those distances.
+  > - For Safety rating: Data and related information on accidents occurences, physical impact from accident and level of damage to autos and cost of repairs to help determine level of auto damage, and personal injuries and medical care information to help determine severity of injuries. 
+> 
+> - Data sets that will include both Categorical and Numerical values, and to follow these assumptions:
+>  1. The input data is numerical and continuous.
+>  2. Each sample data is selected randomly from its population.
+>  3. The input data is considered to be randomly distributed.
+>  4. The input data is reasonably large.
+>  5. The variance of the two datasets should be similar.
 
 ---
 
