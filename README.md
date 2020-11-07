@@ -75,7 +75,7 @@ For linear regression, testing the following hypotheses:
 >   | x5, AWD | m5 | -3.41 | Yes, is non-random; however p-value of 0.1852 is less<br> than 0.05, and impact may be low |
 > 
 > Overall, with a p-value of 5.35e-11, much less than the significance level 0.05, we can reject the H0, where mgp is not determined by random chance and error.   
-> With the y-intercept b = -104, it is likely there are other independent variables that also have a non-random impact on mpg, and further study would be recommended to find other variables. 
+> With the y-intercept b = -104, indicates that it is likely there are other independent variables that also have a non-random impact on mpg, and further study would be recommended to seek and use other suitable variables. 
 
 
  2. *Is the slope of the linear model considered to be zero? Why or why not?*
@@ -86,18 +86,8 @@ For linear regression, testing the following hypotheses:
  
  3. *Does this linear model predict mpg of MechaCar prototypes effectively? Why?* 
 
- For r2 (r-squared) value, aka the coefficient of determination, as a probability metric to determine likelihood of predictability for future data points as a fit to the linear model. A value for r2 in the range between 0 and 1 will indicate a likely probable fit.
-
-> Yes, the linear model is an effective predictor, because the multiple r-square value is 0.7149 and the p-value is 5.35e-11, which is below the significance level of 0.05%. The r-square value indicates that 71% of predictions will be correct using this linear model.
-> 
-> look at Rsq for this   ..    vehicle length, ground clearance and AWD have impact on an mpg parameter   ..  the following variables/coefficients provide 
-a non-random amount of variance to the mpg values in the dataset:
- - vehicle length: Pr(>|t|) = 2.60e-12
- - ground clearance: Pr(>|t|) = 5.21e-08
- - (Intercept): Pr(>|t|) = 5.08e-08
-> P-values for those variables are much smaller than our significance level of 0.05. Therefore, we have sufficient evidence to state that those parameters have significant impact on the mpg values in the dataset.
-> Intersept value in our model is statistically significant too which means that there are other variables and factors that contribute to the variation in mpg that have not been included in our model (and into the dataset) and those values may still need to be collected or observed.
-> 
+>  Yes, the r2 (r-squared) value = 0.7149. As the coefficient of determination, it is a probability metric to determine likelihood of predictability for future data points as a fit to the linear model. A value for r2 in the range between 0 and 1 will indicate a likely probable fit. This is in that range.
+>
 
 .-----------------------------------------------------------
 
