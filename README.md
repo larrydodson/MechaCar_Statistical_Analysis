@@ -52,7 +52,7 @@ Screenshot of linear regression output:   .   ![MechaCar_lm_summary.png](https:/
   `MechaCar_lm <- lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_mpg)`
 
 For linear regression, testing the following hypotheses:
- - **H0**,, Null Hypothesis: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
+ - **H0**, Null Hypothesis: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
  - **Ha**, Alternative Hypothesis: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independent variable)
 
 From the output:
@@ -100,8 +100,8 @@ From the output:
  
  **Address the following Question:** 
  - Question(s): *The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for: 
-  - 1) all manufacturing lots in total?, and 
-  - 2) each lot individually? - Why or Why-not?*
+  1) all manufacturing lots in total?, and 
+  2) each lot individually? - Why or Why-not?*
 >  Response: 
 >  1) Yes - When using the data for all lots in aggregate, Yes, the measured data for Variance that is at 62.29psi is below the 100psi Variance maximum requirement. 
 >  2) Yes - for Lots 1 and, 2. No - for Lot 3.  With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, are below the 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
