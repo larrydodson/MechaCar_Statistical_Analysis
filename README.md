@@ -52,9 +52,10 @@ Screenshot of linear regression output:   .   ![MechaCar_lm_summary.png](https:/
   `MechaCar_lm <- lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_mpg)`
 
 For linear regression, testing the following hypotheses:
- - H0: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
- - Ha: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independant variable)
+ - **H0**: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
+ - **Ha**: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independant variable)
 
+From the output:
   - p-value = 5.35e-11
   - Multiple R-squared = 0.7149
   - Intercept, b = -104
@@ -74,8 +75,8 @@ For linear regression, testing the following hypotheses:
 >   | x4, ground_clearance | m4 | 3.55 | Yes, is non-random |
 >   | x5, AWD | m5 | -3.41 | Yes, is non-random; however p-value of 0.1852 is less<br> than 0.05, and impact may be low |
 > 
-> Overall, with a p-value of 5.35e-11, much less than the significance level 0.05, we can reject the H0, where mgp is not determined by random chance and error.   
-> With the y-intercept b = -104, indicates that it is likely there are other independent variables that also have a non-random impact on mpg, and further study would be recommended to seek and use other suitable variables. 
+> - Overall, with a p-value of 5.35e-11, much less than the significance level 0.05, we can reject the H0, where mgp is not determined by random chance and error.   
+> - With the y-intercept b = -104, indicates that it is likely there are other independent variables that also have a non-random impact on mpg, and further study would be recommended to seek and use other suitable variables. 
 
 
  2. *Is the slope of the linear model considered to be zero? Why or why not?*
@@ -100,10 +101,12 @@ For linear regression, testing the following hypotheses:
    | 3. Lot Summary Statistics on Each of the Three Lots <br> <br> (a normal plot for reference as representative of each of the Lots) | ![Coil_Lot_summary.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_Lot_summary.png)<br> ![Coil_LotX_normalplot.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/Coil_LotX_normalplot.png) |
  
  **Address the following Question:** 
- - Question(s): *The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for: 1) all manufacturing lots in total?, and 2) each lot individually? - Why or Why-not?*
+ - Question(s): *The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for: 
+  - 1) all manufacturing lots in total?, and 
+  - 2) each lot individually? - Why or Why-not?*
 >  Response: 
 >  1) Yes - When using the data for all lots in aggregate, Yes, the measured data for Variance that is at 62.29psi is below the 100psi Variance maximum requirement. 
->  2) Yes - for Lots 1 and 2. No - for Lot 3.  With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, are below the 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
+>  2) Yes - for Lots 1 and, 2. No - for Lot 3.  With the same consideration for each of the three Lots separately, both Lot 1 at 0.98psi, and Lot 2 at 7.47psi, are below the 100psi max requirement. However, Lot 3 at 170.27psi greatly exceeds the 100psi maximum. 
 > 
 > In summary, the cause of the manufacturing problem is likely to be with Lot 3 that is exceeding the design specification for Variance. The Lot 3 should be removed from production and the manufacturing team to use this information to determine next steps to resolve the problem completely, and to modify production methods to screen and prevent furture problems. 
 > 
@@ -137,31 +140,30 @@ For linear regression, testing the following hypotheses:
 .-----------------------------------------------------------
 
 ### Deliverable 4: Design a Study Comparing the MechaCar to the Competition 
- (Study Design: MechaCar vs Competition, as a statistical study to compare vehicle performance.)
+ (Study Design: MechaCar vs Competition, as a statistical study to compare vehicle performance.)   
 
  Address these Questions:
  
  1. *What metric or metrics are you going to test?*
- 
+  >  cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
  
  2. *What is the null hypothesis or alternative hypothesis?*
- 
+  > For linear regression, testing the following hypotheses:
+  - **H0**: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
+  - **Ha**: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independant variable)
  
  3. *What statistical test would you use to test the hypothesis? And why?*
- 
+  > - Lindear regression:
+  > - t-tests, both one-sample and two sample t-tests 
  
  4. *What data is needed to run the statistical test?*
-
+  > - For Cost: 
+  > - For Fuel efficiency: 
+  > - For Horse Power:
+  > - For Maintenance cost:  
+  > - For Safety rating:
 
  
-   | **abc** |
-   | :---: |
-   | ![]() |
-
-<div align="center"> </div>
-
-
-<br>
 
 ---
 
