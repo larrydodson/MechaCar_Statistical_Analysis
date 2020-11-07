@@ -121,8 +121,8 @@ For linear regression, testing the following hypotheses:
    | **Lot 2** <br>t = 0.51745<br>p-value = 0.6072 | ![ttest_lot2.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot2.png) |
    | **Lot 3** <br>t = -2.0916<br>p-value = 0.04168 | ![ttest_lot3.png](https://github.com/larrydodson/MechaCar_Statistical_Analysis/blob/main/ttest_lot3.png) |
 
-- H0: Null Hypothesis, There is no statistical difference between the observed sample mean and its population mean.
-- Ha: Alternative Hypothesis, There is a statistical difference between the observed sample mean and its population mean.
+- **H0**: Null Hypothesis, There is no statistical difference between the observed sample mean and its population mean.
+- **Ha**: Alternative Hypothesis, There is a statistical difference between the observed sample mean and its population mean.
 - Population mean is 1500 pounds per inch.
 - Using significance level 0.05 
 
@@ -131,6 +131,8 @@ For linear regression, testing the following hypotheses:
 - For the Group of all three Lots, the p-value is 0.06028, greater than the significance level of 0.05. This is not sufficient evidence to reject the H0, and indicates that this Group is not statistically different from the population mean.
 - For Lot 1 and Lot 2: Lot 1 has a p-value of 1 and Lot 2 had a p-value of 0.6072, both are greater than the significance level of 0.05. This is not sufficient evidence to reject the H0, and both samples are not statistically different from the population mean. 
 - For Lot 3, it is different from the other Lots. Lot 3 has a p-value of 0.04168 that is less than the significance level of 0.05. In this case, for Lot 3 there is sufficient evidence to reject the H0, and instead to adopt Ha, where the Lot 3 sample is statistically different from the population mean.
+- Also with regard to the value for t, a higher magnitude of t is a higher level of evidence against the H0, the Null Hypothesis. The value of t for Lot 3 is -2.0916, and is another indication for the rejection of the H0, and when also compared to the lower values of t for Lots 1 and 2.
+
 
 .-----------------------------------------------------------
 
