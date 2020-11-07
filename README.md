@@ -52,8 +52,8 @@ Screenshot of linear regression output:   .   ![MechaCar_lm_summary.png](https:/
   `MechaCar_lm <- lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_mpg)`
 
 For linear regression, testing the following hypotheses:
- - **H0**: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
- - **Ha**: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independent variable)
+ - **H0**,, Null Hypothesis: The slope of the linear model is zero, or m = 0 (where the dependent variable would be determined by random chance and error, a flat line)
+ - **Ha**, Alternative Hypothesis: The slope of the linear model is not zero, or m ≠ 0 (indicating a significant linear relationship for the dependent variable with the independent variable)
 
 From the output:
   - p-value = 5.35e-11
